@@ -1,14 +1,23 @@
-// Practice: Contact List
+import contactFormHtml from "./contactForm"
 
-// Build a Webpack application with the following four JS components:
 
-// A ContactCollection component that loads existing contacts from a json-server API, and saves new ones.
-// A Contact component that displays a person's name, phone number, and address.
-// A ContactList component that displays all contacts. It should import the Contact component and the ContactCollection component.
-// A ContactForm component that listens for when the submit button is pressed. When it is triggered, a new contact should be POSTed to the API. It should import the ContactCollection component.
-// In main.js, import the ContactList component and the ContactForm component.
+// 1. Reference to dom
+// 2. Event listener
+// 3. Get data
+// 4. Html Representation
+// 5. Render to dom
 
-// The user should see the contact form at the top of the view, and the list of contacts underneath it.
 
-// Food for thought: Are there any other modules that could be made? Do any modules have more than one possible responsibility? Perhaps something that is a general utility function.
+const formContainer = document.querySelector("#container")
+
+const formToDom = contactFormHtml()
+console.log(formToDom)
+formContainer.innerHTML = formToDom
+
+const submitButton = document.querySelector("#BTN")
+submitButton.addEventListener("click", event => {
+    if (event.target.id.includes("BTN")) {
+        console.log("this is the button")
+    }
+})
 

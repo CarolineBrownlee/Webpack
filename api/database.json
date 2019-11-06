@@ -1,24 +1,23 @@
 {
-  "posts": [
+  "contacts": 
+  [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Caroline Brownlee",
+      "phone": "555-555-5555",
+      "address": "123 Brownlee Way, Nashville"
     },
     {
       "id": 2,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Jane Brownlee",
+      "phone": "555-555-5555",
+      "address": "123 Brownlee Way, Suite 2, Nashville"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 3,
+      "name": "Anne Brownlee",
+      "phone": "555-555-5555",
+      "address": "123 Brownlee Way, Suite 3, Nashville"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
