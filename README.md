@@ -1,4 +1,4 @@
-# Contact List and Product Ordering on Seperate Branches 
+Contact List and Product Ordering Exercises on Seperate Branches 
 
 # Webpack with JSON Server Application Boilerplate
 
